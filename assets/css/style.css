@@ -1,0 +1,112 @@
+.container-fluid
+	{
+		/*background-color: red; */
+	}
+
+
+.no-gutters 
+	{
+	  margin-right: 0;
+	  margin-left: 0;
+	}
+
+/* Visualiser ma construction */
+div
+	{
+		border:1px black solid;
+	}
+/* Fin */
+
+
+.logoimage
+
+	{
+		background-color: #212529;
+		background-image: url(../../images/cocoatree-chocolat.png);
+		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+		height: 100px;
+		width: 100px;
+	}
+
+
+header
+	{
+
+		/*display: flex; */
+
+	}
+
+.row nav
+	{
+		color: white;
+		height: 100px;
+		line-height: 100px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+#navbarNavAltMarkup
+	{
+		background-color: #212529;
+		height: 100px;
+		color: white;
+	}
+
+#navbarNavAltMarkup a
+	{
+		color: white;
+	}
+
+.navbar-expand-lg
+	{
+		background-color: #212529;
+		margin: 0px;
+		padding: 0px;
+		
+	}
+
+
+.jumbotron
+	{
+		
+		height: 70%;
+		background-image: url("../../images/bg.jpg");
+		
+		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+	}
+
+.banner /* Contenu central */
+	{
+		color: white;
+		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+	}
+
+
+
+.containerNewsInfo
+	{
+		background-color: black;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: -100px;
+	}
+
+.restoInfo
+	{
+		background-color: yellow;
+		padding: 5px;
+	}
+
+
+footer
+	{
+
+		background-color: #212529;
+		color: white;
+		height: 50px;
+		line-height: 50px;
+	}
