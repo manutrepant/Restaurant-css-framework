@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Page Accueil</title>
+  <title>Contact</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <meta name="description" content="description du site" />
@@ -14,16 +14,23 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/resetBootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
+
 <!-- Header -->
 <header>
 
+
+
   <nav class="navbar navbar-expand-lg">
-     <a class="navbar-brand" href="index.html">
+
+
+      <a class="navbar-brand" href="index.html">
         <div class="logoimage"></div>
       </a>
      
@@ -45,6 +52,7 @@
 </nav>
 
   <!-- Fin Navigation -->
+
 <!-- Fin Header -->
 
 </header>
@@ -53,10 +61,9 @@
 <div class="jumbotron jumbotron-fluid">
   
     <div class="container-fluid banner">
-      <h1 class="text-center">Bienvenue chez Bio Caffé</h1>
-      <h2 class="text-center">Mon slogan préféré</h2>
-
-      <p class="text-center">Adresse 124, rue de l’église 5030 Lonzée - Gembloux<br/>Mercredi – Jeudi – Vendredi de 14h à 18 h<br/>Samedi de 11h à 18 h<br/><a href="contact.html">Nous contacter</a></p>
+      <h1 class="text-center">Nous contacter</h1>
+      <p class="text-center">Adresse 124, rue de l’église 5030 Lonzée - Gembloux<br/>Mercredi – Jeudi – Vendredi de 14h à 18 h<br/>Samedi de 11h à 18 h 
+    </p>
 
   </div>
 
@@ -66,38 +73,47 @@
 <!-- Section -->
 <section>
 
-<div class="row containerNewsInfo ">
-   
-   <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-      <img src="images/intro1.png" class="img-fluid" alt="Responsive image">
-   </div>
+  <div class="rows contact">
+     
+<form>
+  <div class="form-group">
+    <label><strong>Votre nom</strong></label>
+    <input type="text" class="form-control" placeholder="Votre nom :">
+  </div>
+
+  <div class="form-group">
+    <label><strong>Votre prénom</strong></label>
+    <input type="text" class="form-control" placeholder="Votre prénom :">
+  </div>
+
+<div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Votre email">
+    <div class="input-group-append">
+      <span class="input-group-text">exemple@yahoo.com</span>
+    </div>
+  </div>
 
 
+  <div class="form-group">
+    <label><strong>Titre</strong></label>
+    <select class="form-control">
+      <option>Monsieur</option>
+      <option>Madame</option>
+    </select>
+  </div>
 
-   <div class="infotext col-sm-12 col-md-8 col-lg-8 col-xl-8">
-          <h3 class="pacifico">Lundi Promo -30%</h3>
-          <p>Quisque fermentum dolor vitae porta tincidunt. Integer semper blandit nisi, eu semper mi elementum at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum dolor vitae porta tincidunt. Integer semper blandit nisi, eu semper mi elementum at. Quisque fermentum dolor vitae porta tincidunt. Integer semper blandit nisi, eu semper mi elementum at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum dolor vitae porta tincidunt. Integer semper blandit nisi, eu semper mi elementum at.  
-          </p>
-   </div>
+  <div class="form-group">
+    <label><strong>Votre message:</strong></label>
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
 
-<div class="col-12"><hr></div>
+  <div class="text-sm-center text-md-left">
+  <span><i class="fas fa-mail-bulk"></i></span>
+  <input class="colorbtn" type="submit" value="Envoyer">
+  </div>
 
-   <div class="infotext col-sm-12 col-md-8 col-lg-8 col-xl-8">
-          <h3 class="pacifico">ouvelle "Bière Bio" à la pompe</h3>
-          <p>Quisque fermentum dolor vitae porta tincidunt. Integer semper blandit nisi, eu semper mi elementum at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum dolor vitae porta tincidunt. Integer semper blandit nisi, eu semper mi elementum at. Quisque fermentum dolor vitae porta tincidunt. Integer semper blandit nisi, eu semper mi elementum at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum dolor vitae porta tincidunt. Integer semper blandit nisi, eu semper mi elementum at. 
-          </p>
-   </div>
-
-
-
-   <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
-      <img src="images/intro2.png" class="img-fluid" alt="Responsive image">
-   </div>
-
-
-
-</div>
-
+</form>
+  </div>
 
 </section>
 

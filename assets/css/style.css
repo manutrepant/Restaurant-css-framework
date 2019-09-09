@@ -1,3 +1,12 @@
+
+html, body
+
+{
+	background-color: #040308;
+}
+
+
+
 .container-fluid
 	{
 		/*background-color: red; */
@@ -13,7 +22,7 @@
 /* Visualiser ma construction */
 div
 	{
-		border:1px black solid;
+		/*border:1px black solid;*/
 	}
 /* Fin */
 
@@ -38,6 +47,7 @@ header
 
 	}
 
+/* NAV */
 .row nav
 	{
 		color: white;
@@ -47,12 +57,10 @@ header
 		padding: 0px;
 	}
 
-#navbarNavAltMarkup
+.custom-toggler.navbar-toggler 
 	{
-		background-color: #212529;
-		height: 100px;
-		color: white;
-	}
+  	border-color: rgb(255,102,203);
+	}	 
 
 #navbarNavAltMarkup a
 	{
@@ -64,9 +72,9 @@ header
 		background-color: #212529;
 		margin: 0px;
 		padding: 0px;
-		
 	}
 
+/* FIN NAV */
 
 .jumbotron
 	{
@@ -83,24 +91,84 @@ header
 	{
 		color: white;
 		text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+		font-family: 'Open Sans', sans-serif;
 	}
 
 
-
+/* ACCUEIL */
 .containerNewsInfo
 	{
-		background-color: black;
+		background-color: white;
 		margin-right: 10%;
 		margin-left: 10%;
 		margin-top: -100px;
+		margin-bottom: 100px;
+		padding: 20px;
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
 	}
+
+/* Elements communs*/
+
+h1
+	{
+	font-family: Pacifico;
+	font-size: 3em;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+	}
+
+h2
+	{
+	font-size: 1.5em;
+	}
+
+hr 
+	{
+		border-top: 1px dashed #212529;
+	}
+
+.pacifico
+
+	{
+	font-family: Pacifico;
+	font-size: 2em;
+	text-align: center;
+	}
+
+
+p
+	{
+		font-family: 'Open Sans', sans-serif;
+	}
+
+
+
+.ombre
+	{
+		box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.50);
+	}
+
+
+/* ACCEUIL */
 
 .restoInfo
 	{
-		background-color: yellow;
 		padding: 5px;
+		width: 300px;
 	}
 
+.infotext p, .infotext
+	
+	{
+		background-color: white;
+		padding: 10px;
+		font-size: 13px;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+	}
+
+
+
+/* FOOTER */
 
 footer
 	{
@@ -109,4 +177,33 @@ footer
 		color: white;
 		height: 50px;
 		line-height: 50px;
+	}
+
+
+/* CONTACT */
+
+.contact
+	{
+		background-color: white;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: -200px;
+		margin-bottom: 100px;
+		padding: 20px;
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+	}
+
+	.colorbtn
+	{
+
+		background-color: #7c586f;
+		border-radius: 6px;
+  		border: 1px solid #282b4c;
+  		padding-right: 18px;
+  		padding-bottom: 2px;
+  		padding-left: 18px;
+  		padding-top: 2px;
+  		color: white;
+  		font-weight: bold;
+
 	}
