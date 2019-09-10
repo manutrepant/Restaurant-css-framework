@@ -1,5 +1,5 @@
 # Restaurant-css-framework
----- Message aux coachs, je n'ai pas travailler cette mise en page le WEEK END ;) ----
+---- Message aux coachs, je n'ai pas travaillé cette mise en page le WEEK END ;) ----
 Lien du projet : https://manutrepant.github.io/Restaurant-css-framework/
 Sources des images : https://pixabay.com/fr/ 
 
