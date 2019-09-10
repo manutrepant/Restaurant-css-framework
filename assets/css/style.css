@@ -3,6 +3,7 @@ html, body
 
 {
 	background-color: #040308;
+	font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -141,10 +142,16 @@ p
 	}
 
 
+.nav-item
+{
+	margin-left: 10px;
+}
+
+
 
 .ombre
 	{
-		box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.50);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
 	}
 
 
@@ -206,4 +213,162 @@ footer
   		color: white;
   		font-weight: bold;
 
+	}
+
+
+	/* ABOUT */
+	{
+		background-color: white;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: -500px;
+		margin-bottom: 100px;
+		padding: 20px;
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+	}
+
+
+	.map-container
+		{
+			overflow:hidden;
+			padding-bottom:56.25%;
+			position:relative;
+			height:0;
+		}
+
+	.map-container iframe
+
+		{
+			left:0;
+			top:0;
+			height:100%;
+			width:100%;
+			position:absolute;
+		}
+
+
+	/* ABOUT */
+.containerAbout
+	{
+		background-color: white;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: 50px;
+		margin-bottom: 100px;
+		padding: 20px;
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+	}
+
+	#background
+	{
+
+		height: 100%;
+		background-image: url("../../images/bg.jpg");
+		
+		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+
+	}
+
+.divHoraire
+	{
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 10px;
+		display: flex;
+		justify-content: center;
+	}
+
+
+.horaire
+	{
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+		text-align: center;
+		color: white;
+		padding: 5px;
+	}
+
+
+.borderLR
+{
+
+	border-right: 1px white dashed;
+	border-left: 1px white dashed;
+}
+
+
+.marginLR
+
+	{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+
+.h3About
+
+	{
+		margin-top: 100px;
+		color: white;
+	
+	}
+
+
+h5
+		{
+			font-family: Pacifico;
+			font-size: 17px;
+			margin: 0;
+
+		}
+
+/* MENU */
+.backgroundMenu
+	{
+		height: 100%;
+		background-image: url("../../images/menu.jpg");
+		
+		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+	}
+
+
+.containerMenu
+	{
+		background-color: white;
+		margin-right: 10%;
+		margin-left: 10%;
+		margin-top: 50px;
+		margin-bottom: 100px;
+		padding: 20px;
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+		font-size: 14px;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+.textMenu
+	{
+		color: white;
+		padding: 10px;
+	}
+
+.imageMenu
+	{
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+		border: 10px white solid;
+	}
+
+h4.textMenu
+	{
+		color: #040308;
+		text-align: center;
+		background-color: white;
+		font-family: Pacifico;
+	}
+
+.espace
+	{
+		height: 25px;
 	}
