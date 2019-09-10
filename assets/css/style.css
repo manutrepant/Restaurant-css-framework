@@ -370,5 +370,44 @@ h4.textMenu
 
 .espace
 	{
-		height: 25px;
+		height: 40px;
 	}
+
+/* NAVIGATION GALERIE */
+
+
+.navigationGalerie
+	{
+		height: 40px;
+		margin-top: 30px;
+		justify-content: center;
+
+	}
+
+.white 
+
+	{
+		color: white;
+	}
+
+
+.img-thumbnail
+
+	{
+		border: 10px white solid;
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50);
+	}
+
+.page-link
+
+	{
+		color: #212529;
+		border: 1px solid #212529;
+	}
+
+
+.navbar-expand-lg .navbar-nav .nav-link
+
+{
+	margin-right: 1em;
+}
