@@ -1,133 +1,196 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Contact</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <meta name="description" content="description du site" />
-    <meta name="language" content="fr">
-    <meta name="theme-color" content="#68cfd0">
+    <meta name="language" content="fr" />
+    <meta name="theme-color" content="#68cfd0" />
 
-     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="apple-touch-icon-144x144.png"
+    />
+    <link rel="icon" sizes="196x196" href="favicon-196.png" type="image/png" />
 
-    <link rel="stylesheet" type="text/css" href="assets/css/resetBootstrap.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="msapplication-TileImage" content="favicon-144.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/resetBootstrap.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
-<!-- Header -->
-<header>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">
+          <div class="logoimage"></div>
+        </a>
 
-  <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html">
-        <div class="logoimage"></div>
-      </a>
-     
-      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
+        <button
+          class="navbar-toggler navbar-dark"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <!-- d-flex justify-content-end pour la version Desktop - toute la longeur pour GSM-->
-      <!-- collapse navbar-collapse d-flex justify-content-end -->
-      <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="index.html">Accueil <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="menu.html">Menu</a>
-        <a class="nav-item nav-link" href="photos.html">Galerie de photos</a>
-        <a class="nav-item nav-link" href="about.html">Présentation</a>
-        <a class="nav-item nav-link" href="contact.html">Contact</a>
+        <!-- d-flex justify-content-end pour la version Desktop - toute la longeur pour GSM-->
+        <!-- collapse navbar-collapse d-flex justify-content-end -->
+        <div
+          class="collapse navbar-collapse d-lg-flex justify-content-lg-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html"
+              >Accueil <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="menu.html">Menu</a>
+            <a class="nav-item nav-link" href="photos.html"
+              >Galerie de photos</a
+            >
+            <a class="nav-item nav-link" href="about.html">Présentation</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+          </div>
         </div>
+      </nav>
+
+      <!-- Fin Navigation -->
+
+      <!-- Fin Header -->
+    </header>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid banner">
+        <h1 class="text-center">Nous contacter</h1>
+        <p class="text-center">
+          Adresse : Cantersteen 10, 1000 Bruxelles<br />Mercredi – Jeudi –
+          Vendredi de 14h à 18 h<br />Samedi de 11h à 18 h<br /><i
+            class="fas fa-phone-volume"
+          ></i>
+          02.722.56.86
+        </p>
+      </div>
     </div>
-</nav>
+    <!-- Fin Jumbotron -->
 
-  <!-- Fin Navigation -->
+    <!-- Section -->
+    <section>
+      <div class="rows contact">
+        <form>
+          <div class="form-group">
+            <label><strong>Votre nom</strong></label>
+            <input type="text" class="form-control" placeholder="Votre nom :" />
+          </div>
 
-<!-- Fin Header -->
+          <div class="form-group">
+            <label><strong>Votre prénom</strong></label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Votre prénom :"
+            />
+          </div>
 
-</header>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Votre email" />
+            <div class="input-group-append">
+              <span class="input-group-text">exemple@yahoo.com</span>
+            </div>
+          </div>
 
-<!-- Jumbotron -->
-<div class="jumbotron jumbotron-fluid">
-  
-    <div class="container-fluid banner">
-      <h1 class="text-center">Nous contacter</h1>
-      <p class="text-center">Adresse : Cantersteen 10, 1000 Bruxelles<br/>Mercredi – Jeudi – Vendredi de 14h à 18 h<br/>Samedi de 11h à 18 h<br/><i class="fas fa-phone-volume"></i> 02.722.56.86
-    </p>
+          <div class="form-group">
+            <label><strong>Titre</strong></label>
+            <select class="form-control">
+              <option>Monsieur</option>
+              <option>Madame</option>
+            </select>
+          </div>
 
+          <div class="form-group">
+            <label><strong>Votre message:</strong></label>
+            <textarea class="form-control" rows="3"></textarea>
+          </div>
 
+          <div class="text-sm-center">
+            <input class="colorbtn" type="submit" value="Envoyer" />
+          </div>
+        </form>
+      </div>
+    </section>
 
-  </div>
+    <!-- Fin Section -->
 
-</div>
-<!-- Fin Jumbotron -->
-
-<!-- Section -->
-<section>
-
-  <div class="rows contact">
-     
-<form>
-  <div class="form-group">
-    <label><strong>Votre nom</strong></label>
-    <input type="text" class="form-control" placeholder="Votre nom :">
-  </div>
-
-  <div class="form-group">
-    <label><strong>Votre prénom</strong></label>
-    <input type="text" class="form-control" placeholder="Votre prénom :">
-  </div>
-
-<div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Votre email">
-    <div class="input-group-append">
-      <span class="input-group-text">exemple@yahoo.com</span>
-    </div>
-  </div>
-
-
-  <div class="form-group">
-    <label><strong>Titre</strong></label>
-    <select class="form-control">
-      <option>Monsieur</option>
-      <option>Madame</option>
-    </select>
-  </div>
-
-  <div class="form-group">
-    <label><strong>Votre message:</strong></label>
-    <textarea class="form-control" rows="3"></textarea>
-  </div>
-
-  <div class="text-sm-center">
-  <input class="colorbtn" type="submit" value="Envoyer">
-  </div>
-
-</form>
-  </div>
-
-</section>
-
-<!-- Fin Section -->
-
-
-<!-- Footer -->
-<footer class="fixed-bottom myfooter text-center">
-<p>Adresse : Cantersteen 10, 1000 Bruxelles</p>
-</footer>
-<!-- Fin de Footer -->
+    <!-- Footer -->
+    <footer class="fixed-bottom myfooter text-center">
+      <p>Adresse : Cantersteen 10, 1000 Bruxelles</p>
+    </footer>
+    <!-- Fin de Footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
